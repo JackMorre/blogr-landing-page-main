@@ -115,7 +115,7 @@ body {
 .arrow-icon {
 	width: 1.4rem;
 	transform: rotate(0deg);
-	transition: all 0.3s ease-in-out;
+	/* transition: all 0.3s ease-in-out; */
 }
 
 .link-container.active > .link + .ts-img-container .arrow-icon {
@@ -177,7 +177,7 @@ body {
 	color: hsl(356, 100%, 66%);
 	padding: 1.4rem 4rem;
 	cursor: pointer;
-	transition: all 0.2s ease-in-out;
+	/* transition: all 0.2s ease-in-out; */
 }
 
 .btn--sign-up:hover,
@@ -540,24 +540,20 @@ footer {
 		position: absolute;
 		flex-direction: column;
 		padding: 3.8rem 3rem;
-		top: 5rem;
+		top: 15rem;
 		left: 0;
 		/* transform: translate(-50%, -50%); */
 		background-color: rgb(255, 255, 255);
 		border-radius: 5px;
 		z-index: 999;
-		opacity: 0;
 		pointer-events: none;
 		visibility: hidden;
 		box-shadow: 0px 4px 5rem rgba(0, 0, 0, 0.302);
-		transition: all 0.3s ease-in-out;
 	}
 
 	.clicked > .mobile-nav {
-		opacity: 1;
 		pointer-events: auto;
 		visibility: visible;
-		top: 10rem;
 	}
 
 	.dropdown-container {
@@ -611,7 +607,7 @@ footer {
 	.btn-login:visited {
 		color: rgb(60, 60, 60);
 		font-weight: 400;
-		transition: all 0.3s ease-in-out;
+		/* transition: all 0.3s ease-in-out; */
 	}
 
 	.btn--sign-up:hover,
